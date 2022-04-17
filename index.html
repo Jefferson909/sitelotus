@@ -9,45 +9,89 @@
     <title>Home</title>
 </head>
 <body>
+
     <header>
+
         <nav>
+
             <a class="logo" href="index.html">Lotus</a>
+
             <div id="divBusca">
+
                 <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
+            
             </div>
+
             <div class="mobile-menu">
+
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
+            
             </div>
+
             <ul class="nav-list">
+
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./Paginas/SaudeMental.html">Saúde mental</a></li>
                 <li><a href="./Paginas/Transtornos.html">Transtornos mentais</a></li>
                 <li><a href="./Paginas/Pisicologos.html">pisicologos</a></li>
+            
             </ul>
+        
         </nav>
-    </header>
-    
-    <section class="galery">
-        <div class="fotos">
-            <img src="./Imagens/1.png" alt="Foto 1">
-            <img src="./Imagens/2.png" alt="Foto 2">
-            <img src="./Imagens/3.png" alt="Foto 3">
-            <img src="./Imagens/4.png" alt="Foto 4">
-            <img src="./Imagens/1.png" alt="Foto 1">
-        </div>
-    </section>
 
-    <main><!--main-->
-        <!--<div class="mensagem">
-            <p>“O autocuidado é uma escolha deliberada de
-                presentear-se com pessoas, lugares, coisas, eventos e
-                oportunidades que recarregam nossa bateria pessoal e
-                promovem a saúde integral: corpo, mente e espírito.”<br>
-                — Laurie Buchanan</p>
-        </div>!-->
-    </main>
+    </header>
+<main>  
+    <div class="slider">
+
+        <div class="slides">
+            <!--bolinhas-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--fim das bolinhas-->
+
+            <!--Imagens do slide-->
+            <div class="slide first">
+                <img src="/Imagens/1.png" alt="Imagen1">
+            </div>
+
+            <div class="slide">
+                <img src="/Imagens/2.png" alt="Imagen2">
+            </div>
+
+            <div class="slide">
+                <img src="/Imagens/3.png" alt="Imagen3">
+            </div>
+            
+            <div class="slide">
+                <img src="/Imagens/1.png" alt="Imagen4">
+            </div>
+            <!--Fim das imagens-->
+
+            <!--navegaçao auto-->
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="manual-navegation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+    </div>
+
+</main>
+
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
